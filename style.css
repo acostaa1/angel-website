@@ -1,0 +1,33 @@
+.topnav {
+    color: black;
+    text-align: center;
+    padding: 3rem;
+    font-size: 30px;
+    border: solid;
+
+}
+
+.topnav a {
+    color: black;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.topnav a:hover {
+    opacity: 70%
+}
+
+#nav {
+    color: gold;
+    font-size:20px;
+    padding: 1rem;
+}
+
+#start {
+    text-align: center;
+}
+
+#intro {
+    text-align: center;
+}
+
