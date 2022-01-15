@@ -1,33 +1,71 @@
+* {
+    font-family: comic Arial, Helvetica, sans-serif;
+    ;
+}
+
+
 .topnav {
     color: black;
     text-align: center;
     padding: 3rem;
-    font-size: 30px;
-    border: solid;
+    font-size: 20px;
+    
 
 }
 
-.topnav a {
+ a {
     color: black;
     text-decoration: none;
-    padding: 1rem;
+    padding: 0rem;
 }
 
-.topnav a:hover {
-    opacity: 70%
+ a:hover {
+    opacity: 70%;
+
+}
+#current img:hover, #previous img:hover {
+   position: relative;
+   top: -1px;
+
 }
 
 #nav {
     color: gold;
-    font-size:20px;
-    padding: 1rem;
+    font-size:10px;
+    padding: 0rem;
 }
-
+span a{
+    color: teal;
+}
 #start {
     text-align: center;
+    font-size: 70px;
+
 }
+#start button {
+    position: relative;
+}
+
 
 #intro {
     text-align: center;
+    position: relative;
 }
 
+#intro p {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+
+#current, #previous{
+    width: 30%
+}
+
+
+#previous img{
+    width: 300px;
+}
