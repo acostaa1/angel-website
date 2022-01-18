@@ -4,11 +4,19 @@
 }
 
 
-.topnav {
+nav ul{
     color: black;
     text-align: center;
     padding: 2rem;
     font-size: 25px;
+    position: relative;
+    width: 100%;
+    background-color: rgb(255, 255, 255)
+}
+
+nav ul li {
+    display: inline;
+    margin: 30px;
 }
 
  a {
@@ -27,7 +35,7 @@
 
 }
 
-#nav {
+#top {
     color: teal;
     font-size:15px;
     padding: 2rem;
@@ -37,7 +45,11 @@ span a{
 }
 #start {
     text-align: center;
-    font-size: 70px;
+    font-size: 30px;
+    top: 25;
+    line-height: 2;
+    min-height: 53vh;
+    padding-top: 30vh;
 
 }
 #start h1 {
@@ -52,6 +64,9 @@ span a{
 #intro {
     text-align: center;
     position: relative;
+    top: 50px;
+    padding: 30px ;
+    
 }
 
 #intro p {
@@ -66,10 +81,10 @@ h3 {
 
 
 #current, #previous{
-    width: 30%;
-    position: absolute;
-    
-    
+    position: absolute;  
+    top:1180px;
+    padding: 60px 30px ;
+    line-height: 1.6;
 }
 
 #current img {
@@ -87,10 +102,15 @@ h3 {
 #contact {
     top:200px;
     position: relative;
+    padding:  30px ;
+    line-height: 2;
+}
+#contact h3 {
+    text-align: left;
 }
 
 #contact img {
     width: 100px;
-    margin: 0px 50px;
+    padding: 0 60px;
+    display: inline-block;
 }
-
