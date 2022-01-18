@@ -48,7 +48,7 @@ span a{
     font-size: 30px;
     top: 25;
     line-height: 2;
-    min-height: 53vh;
+    min-height: 49vh;
     padding-top: 30vh;
 
 }
@@ -72,6 +72,7 @@ span a{
 #intro p {
     font-size: 50px;
     margin: 5px;
+    padding-top: 25px;
 }
 
 h3 {
@@ -80,30 +81,33 @@ h3 {
 }
 
 
-#current, #previous{
-    position: absolute;  
-    top:1180px;
-    padding: 60px 30px ;
-    line-height: 1.6;
+#work{
+    position: relative;  
+    top:11px;
+    padding: 0px 30px ;
+    display: inline-flex;
+    
 }
 
-#current img {
+#work img {
     width:200px;
+    padding-right: 50px;
 }
-#previous img{
-    width: 300px;
+
+#projects {
+    
+}
+
+#projects img {
+    border: solid black;
 
 }
 
-#previous {
-    left: 300px;
-}
-
-#contact {
-    top:200px;
+#contact, #projects {
+    top:20px;
     position: relative;
     padding:  30px ;
-    line-height: 2;
+    line-height: 1;
 }
 #contact h3 {
     text-align: left;
@@ -113,4 +117,67 @@ h3 {
     width: 100px;
     padding: 0 60px;
     display: inline-block;
+}
+
+@media screen and (max-width: 600px) {
+
+    #start {
+        text-align: center;
+        font-size: 25px;
+        line-height: 2;
+        min-height: 80vh;
+        padding-top: 10vh;
+    }
+
+  
+    nav ul{
+        color: black;
+        padding: 0px;
+        font-size: 20px;
+        width: 100%;
+        background-color: none;
+        
+    }
+    
+    nav ul li {
+        display: inline-block;
+        margin: 0px 5rem;
+        text-align: center;
+    }
+    #top{
+      margin: 0.5px;
+      font-size: 15px;
+      text-align: center;
+      
+    }
+
+    #intro p {
+        font-size: 25px;
+        margin: 5px;
+    }
+
+    #work {
+        text-align: center;
+        display: initial;
+        flex-wrap: initial;
+    }
+    #projects {
+        padding-bottom: 0px;
+    }
+    
+    #contact img {
+        width: 100px;
+        padding: 0 1px;
+        display: inline-block;
+    }
+    #contact {
+        top:20px;
+        position: relative;
+        padding:  30px ;
+        line-height: 2;
+        text-align: center; 
+    }
+    #contact h3, h3 {
+        text-align: center;
+    }
 }
