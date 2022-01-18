@@ -1,16 +1,14 @@
 * {
     font-family: comic Arial, Helvetica, sans-serif;
-    ;
+
 }
 
 
 .topnav {
     color: black;
     text-align: center;
-    padding: 3rem;
-    font-size: 20px;
-    
-
+    padding: 2rem;
+    font-size: 25px;
 }
 
  a {
@@ -23,16 +21,16 @@
     opacity: 70%;
 
 }
-#current img:hover, #previous img:hover {
+ img:hover {
    position: relative;
    top: -1px;
 
 }
 
 #nav {
-    color: gold;
-    font-size:10px;
-    padding: 0rem;
+    color: teal;
+    font-size:15px;
+    padding: 2rem;
 }
 span a{
     color: teal;
@@ -42,6 +40,10 @@ span a{
     font-size: 70px;
 
 }
+#start h1 {
+    margin: 0px;
+}
+
 #start button {
     position: relative;
 }
@@ -54,18 +56,41 @@ span a{
 
 #intro p {
     font-size: 50px;
+    margin: 5px;
 }
 
 h3 {
     font-size: 30px;
+    width: 100%;
 }
 
 
 #current, #previous{
-    width: 30%
+    width: 30%;
+    position: absolute;
+    
+    
 }
 
-
+#current img {
+    width:200px;
+}
 #previous img{
     width: 300px;
+
 }
+
+#previous {
+    left: 300px;
+}
+
+#contact {
+    top:200px;
+    position: relative;
+}
+
+#contact img {
+    width: 100px;
+    margin: 0px 50px;
+}
+
