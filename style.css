@@ -1,0 +1,183 @@
+* {
+    font-family: comic Arial, Helvetica, sans-serif;
+
+}
+
+
+nav ul{
+    color: black;
+    text-align: center;
+    padding: 2rem;
+    font-size: 25px;
+    position: relative;
+    width: 100%;
+    background-color: rgb(255, 255, 255)
+}
+
+nav ul li {
+    display: inline;
+    margin: 30px;
+}
+
+ a {
+    color: black;
+    text-decoration: none;
+    padding: 0rem;
+}
+
+ a:hover {
+    opacity: 70%;
+
+}
+ img:hover {
+   position: relative;
+   top: -1px;
+
+}
+
+#top {
+    color: teal;
+    font-size:15px;
+    padding: 2rem;
+}
+span a{
+    color: teal;
+}
+#start {
+    text-align: center;
+    font-size: 30px;
+    top: 25;
+    line-height: 2;
+    min-height: 49vh;
+    padding-top: 30vh;
+
+}
+#start h1 {
+    margin: 0px;
+}
+
+#start button {
+    position: relative;
+}
+
+
+#intro {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    padding: 30px ;
+    
+}
+
+#intro p {
+    font-size: 50px;
+    margin: 5px;
+    padding-top: 25px;
+}
+
+h3 {
+    font-size: 30px;
+    width: 100%;
+}
+
+
+#work{
+    position: relative;  
+    top:11px;
+    padding: 0px 30px ;
+    display: inline-flex;
+    
+}
+
+#work img {
+    width:200px;
+    padding-right: 50px;
+}
+
+#projects {
+    
+}
+
+#projects img {
+    border: solid black;
+
+}
+
+#contact, #projects {
+    top:20px;
+    position: relative;
+    padding:  30px ;
+    line-height: 1;
+}
+#contact h3 {
+    text-align: left;
+}
+
+#contact img {
+    width: 100px;
+    padding: 0 60px;
+    display: inline-block;
+}
+
+@media screen and (max-width: 600px) {
+
+    #start {
+        text-align: center;
+        font-size: 25px;
+        line-height: 2;
+        min-height: 80vh;
+        padding-top: 10vh;
+    }
+
+  
+    nav ul{
+        color: black;
+        padding: 0px;
+        font-size: 20px;
+        width: 100%;
+        background-color: none;
+        
+    }
+    
+    nav ul li {
+        display: inline-block;
+        margin: 0px 5rem;
+        text-align: center;
+    }
+    #top{
+      margin: 0.5px;
+      font-size: 15px;
+      text-align: center;
+      
+    }
+
+    #intro p {
+        font-size: 25px;
+        margin: 5px;
+    }
+
+    #work {
+        text-align: center;
+        display: initial;
+        flex-wrap: initial;
+    }
+    #projects {
+        padding-bottom: 0px;
+    }
+    
+    #contact img {
+        width: 100px;
+        padding: 0 1px;
+        display: inline-block;
+    }
+    #contact {
+        top:20px;
+        position: relative;
+        padding:  30px ;
+        line-height: 2;
+        text-align: center; 
+    }
+    #contact h3, h3 {
+        text-align: center;
+    }
+}
